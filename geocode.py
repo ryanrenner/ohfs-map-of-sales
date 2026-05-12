@@ -26,7 +26,7 @@ import time
 import requests
 
 # ── Config ──────────────────────────────────────────────────────────────────
-API_KEY   = os.environ.get("GOOGLE_MAPS_KEY", "AIzaSyCXBLD5OgD1fTy9wRsU3YHb8gt8RO22Vg8")
+API_KEY   = os.environ.get("GOOGLE_MAPS_KEY", "insert_api_key_here")
 CSV_FILE  = os.path.join(os.path.dirname(__file__), "data", "full-address.csv")
 OUT_FILE  = os.path.join(os.path.dirname(__file__), "locations.js")
 
