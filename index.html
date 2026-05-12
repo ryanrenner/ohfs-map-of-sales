@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,7 +52,7 @@
   <script>
     function initMap() {
       // Show a notice if geocode.py hasn't been run yet
-      if (!window.LOCATIONS || LOCATIONS.length === 0) {
+      if (typeof LOCATIONS === 'undefined' || LOCATIONS.length === 0) {
         document.getElementById("empty-notice").style.display = "block";
         return;
       }
